@@ -1,19 +1,3 @@
-# Company name: B10
-# TAX INVOICE: B9
-# Date: C18
-# Order quantity: E22
-
-# Steps:
-# Get all sheets
-# For each sheet check for company name in B10
-# Check dominant date
-# Get date from C18 (ignore if not matching dominant date)
-# Get order amount
-# Add to df
-#
-# Output:
-# Output DF to xls
-
 import re
 import sys
 from collections import Counter
